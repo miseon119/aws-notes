@@ -11,3 +11,14 @@ Install awscli
 brew install awscli
 ```
 
+check configure list
+```
+aws configure list
+```
+
+Set `aws_access_key_id` and `aws_secret_access_key`
+
+```
+vi ~/.aws/credentials
+```
+
