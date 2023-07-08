@@ -41,3 +41,12 @@ mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$P
 kubectl version --short --client
 ```
 
+6. Create IAM role for EKS cluster
+
+![cluster_role](./images/cluster_role.png)
+
+7. Create EKS Worker Node Role
+
+![woker_role](./images/worker_role.png)
+
+![worker_role_policy](./images/worker_role_policy.png)
