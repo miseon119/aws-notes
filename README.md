@@ -50,3 +50,10 @@ kubectl version --short --client
 ![woker_role](./images/worker_role.png)
 
 ![worker_role_policy](./images/worker_role_policy.png)
+
+8. Create VPC and Subnet 
+
+Use [cloudFormation Stack](https://potato-yong.tistory.com/126)
+
+9. Create EKS Cluster
+
